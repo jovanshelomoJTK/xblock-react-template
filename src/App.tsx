@@ -7,10 +7,10 @@ function App() {
 
   return (
     <div>
-      <Button className="bg-primary" onClick={() => setCount((c) => c + 1)}>
+      <Button onClick={() => setCount((c) => c + 1)}>
         Click to increment: {count}
       </Button>
-      <Button className="bg-secondary" onClick={() => setCount2((c) => c + 1)}>
+      <Button variant="secondary" onClick={() => setCount2((c) => c + 1)}>
         Click to increment: {count2}
       </Button>
     </div>
